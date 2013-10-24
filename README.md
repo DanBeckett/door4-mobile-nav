@@ -1,4 +1,6 @@
 door4-mobile-nav
 ================
 
-Plug-in to add a pull-out navigation menu to WordPress
+Next step change needed: 
+
+  Reverse engineer the CSS into a SASS file for ease of updating
