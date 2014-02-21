@@ -1,9 +1,9 @@
-a.door4-mobile-menu-toggle {
+a.door4-mobile-nav-toggle {
 	display: none;
 	text-decoration: none;
 }
 
-a.door4-mobile-menu-toggle, a.door4-mobile-menu-toggle:focus {
+a.door4-mobile-nav-toggle, a.door4-mobile-nav-toggle:focus {
 	background-color: #00BEBE;
 	color: #fff;
     padding: 0.8em;
@@ -18,16 +18,16 @@ a.door4-mobile-menu-toggle, a.door4-mobile-menu-toggle:focus {
 	transition: all 0.4s;
 }
 
-a.door4-mobile-menu-toggle:hover {
+a.door4-mobile-nav-toggle:hover {
 	background-color: #009F9F;
 	text-decoration: none;
 }
 
-a.door4-mobile-menu-toggle.activated {
+a.door4-mobile-nav-toggle.activated {
 	margin-left: 225px;
 }
 
-a.door4-mobile-menu-toggle i {
+a.door4-mobile-nav-toggle i {
 	font-size: 18px;
 }
 
@@ -72,7 +72,7 @@ div.door4-mobile-nav-push-inner.pushed-aside {
 	margin-left: 225px;
 }
 
-div.door4-mobile-menu {
+div.door4-mobile-nav {
 	background-color: #00BEBE;
 	font-size: 15px;
 	height: 100%;
@@ -90,15 +90,15 @@ div.door4-mobile-menu {
 	transition: left 0.4s;
 }
 
-div.door4-mobile-menu.activated {
+div.door4-mobile-nav.activated {
 	left: 0;
 }
 
-.admin-bar div.door4-mobile-menu, .admin-bar a.door4-mobile-menu-toggle {
-	top: 28px;
+.admin-bar div.door4-mobile-nav, .admin-bar a.door4-mobile-nav-toggle {
+	top: 32px;
 }
 
-div.door4-mobile-menu ul.mobile-nav-list {
+div.door4-mobile-nav ul.mobile-nav-list {
 	position: relative;
 	list-style-type: none;
 	margin: 0;
@@ -111,17 +111,17 @@ div.door4-mobile-menu ul.mobile-nav-list {
 	transition: background 0.4s;
 }
 
-div.door4-mobile-menu ul.mobile-nav-list.obscured {
+div.door4-mobile-nav ul.mobile-nav-list.obscured {
 	background-color: #009F9F;
 }
 
-div.door4-mobile-menu ul.mobile-nav-list li {
+div.door4-mobile-nav ul.mobile-nav-list li {
 	border-bottom: 1px solid #009F9F;
 	list-style-type: none;
 	width: 100%;
 }
 
-div.door4-mobile-menu ul.mobile-nav-list li ul.sub {
+div.door4-mobile-nav ul.mobile-nav-list li ul.sub {
 	background-color: #00BEBE;
 	position: absolute;
 	height: 100%;
@@ -136,15 +136,15 @@ div.door4-mobile-menu ul.mobile-nav-list li ul.sub {
 	transition: background 0.4s, left 0.4s;
 }
 
-div.door4-mobile-menu ul.mobile-nav-list li ul.sub.obscured {
+div.door4-mobile-nav ul.mobile-nav-list li ul.sub.obscured {
 	background-color: #009F9F;
 }
 
-div.door4-mobile-menu ul.mobile-nav-list li ul.sub.rolled_out {
+div.door4-mobile-nav ul.mobile-nav-list li ul.sub.rolled_out {
 	left: 0%; 
 }
 
-div.door4-mobile-menu ul.mobile-nav-list a.mobile-nav-link {
+div.door4-mobile-nav ul.mobile-nav-list a.mobile-nav-link {
 	background-color: transparent;
 	color: #fff;
 	display: block;
@@ -158,23 +158,23 @@ div.door4-mobile-menu ul.mobile-nav-list a.mobile-nav-link {
 	transition: background 0.4s;
 }
 
-div.door4-mobile-menu ul.mobile-nav-list h4.door4-mobile-nav-title {
+div.door4-mobile-nav ul.mobile-nav-list h4.door4-mobile-nav-title {
 	color: #fff;
 	font-size: 20px;
 	margin: 0;
 	padding: 0.5em;
 }
 
-div.door4-mobile-menu ul.mobile-nav-list a.mobile-nav-link:hover {
+div.door4-mobile-nav ul.mobile-nav-list a.mobile-nav-link:hover {
 	background-color: #009F9F;
 }
 
-div.door4-mobile-menu ul.mobile-nav-list a.mobile-nav-link span {
+div.door4-mobile-nav ul.mobile-nav-list a.mobile-nav-link span {
 	display: inline-block;
 	width: 11em;
 }
 
-div.door4-mobile-menu ul.mobile-nav-list a.mobile-nav-link i {
+div.door4-mobile-nav ul.mobile-nav-list a.mobile-nav-link i {
 	color: #008b8b;
 	display: inline-block;
 	float: left;
@@ -183,25 +183,25 @@ div.door4-mobile-menu ul.mobile-nav-list a.mobile-nav-link i {
 	width: 1em;
 }
 
-div.door4-mobile-menu ul.mobile-nav-list a.mobile-back-link {
+div.door4-mobile-nav ul.mobile-nav-list a.mobile-back-link {
 	background-color: #00ADAD;
 	font-size: 0.8em;
     padding-bottom: 0.5em;
     text-transform: uppercase;
 }
 
-div.door4-mobile-menu ul.mobile-nav-list a.mobile-back-link i {
+div.door4-mobile-nav ul.mobile-nav-list a.mobile-back-link i {
 	float: right;
 }
 
 @media only screen 
-and (max-device-width : 480px) {
+and (max-device-width : 768px) {
 
-	a.door4-mobile-menu-toggle {
+	a.door4-mobile-nav-toggle {
 		display: block;
 	}
 	
-	a.door4-mobile-menu-toggle i {
+	a.door4-mobile-nav-toggle i {
 		font-size: 1.4em;
 	}
 

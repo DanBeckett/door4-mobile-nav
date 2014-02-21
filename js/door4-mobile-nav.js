@@ -1,10 +1,10 @@
 jQuery(document).ready(function(){
-	jQuery('.door4-mobile-menu-toggle').click(function(e){
+	jQuery('.door4-mobile-nav-toggle').click(function(e){
 		e.preventDefault();
 		$this = jQuery(this);
 		$body_inner = jQuery('.door4-mobile-nav-push-inner');
 		$overlay = $body_inner.siblings('.door4-mobile-nav-overlay');
-		$menu = jQuery('.door4-mobile-menu');
+		$menu = jQuery('.door4-mobile-nav');
 		$slideby = $menu.outerWidth();
 		
 		if($menu.hasClass('activated')) {		
@@ -28,9 +28,9 @@ jQuery(document).ready(function(){
 	});
 	
 	jQuery('.door4-mobile-nav-overlay').click(function(e){
-		$menu = jQuery('.door4-mobile-menu');
+		$menu = jQuery('.door4-mobile-nav');
 		$overlay = jQuery(this);
-		$link = jQuery('.door4-mobile-menu-toggle');
+		$link = jQuery('.door4-mobile-nav-toggle');
 		$body_inner = $overlay.siblings('.door4-mobile-nav-push-inner');
 		
 		$overlay.removeClass('overlaid');
@@ -46,7 +46,7 @@ jQuery(document).ready(function(){
 	});
 	
 	$navlist = jQuery('.mobile-nav-list');
-	if(jQuery('.door4-mobile-menu').length>0) {
+	if(jQuery('.door4-mobile-nav').length>0) {
 		jQuery('li.mobile-back-item').each(function(){
 			$this = jQuery(this);
 			$this.children('a').on('click', function(e){
