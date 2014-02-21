@@ -6,7 +6,7 @@ jQuery(document).ready(function(){
 		$overlay = $body_inner.siblings('.door4-mobile-nav-overlay');
 		$menu = jQuery('.door4-mobile-nav');
 		$slideby = $menu.outerWidth();
-		
+
 		if($menu.hasClass('activated')) {		
 			$menu.removeClass('activated');
 			$this.removeClass('activated');
@@ -24,9 +24,9 @@ jQuery(document).ready(function(){
 			$body_inner.addClass('pushed-aside');
 			$overlay.addClass('overlaid');
 		};
-		
+
 	});
-	
+
 	jQuery('.door4-mobile-nav-overlay').click(function(e){
 		$menu = jQuery('.door4-mobile-nav');
 		$overlay = jQuery(this);
@@ -44,7 +44,7 @@ jQuery(document).ready(function(){
 			jQuery(this).removeClass('obscured');
 		});
 	});
-	
+
 	$navlist = jQuery('.mobile-nav-list');
 	if(jQuery('.door4-mobile-nav').length>0) {
 		jQuery('li.mobile-back-item').each(function(){
