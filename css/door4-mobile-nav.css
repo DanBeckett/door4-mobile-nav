@@ -4,9 +4,9 @@ a.door4-mobile-nav-toggle {
 }
 
 a.door4-mobile-nav-toggle, a.door4-mobile-nav-toggle:focus {
-	background-color: #00BEBE;
+	background-color: #57acd5;
 	color: #fff;
-    padding: 0.8em;
+    padding: 0.7em;
 	left: 0;
 	position: fixed;
 	text-decoration: none;
@@ -19,7 +19,7 @@ a.door4-mobile-nav-toggle, a.door4-mobile-nav-toggle:focus {
 }
 
 a.door4-mobile-nav-toggle:hover {
-	background-color: #009F9F;
+	background-color: #ff8b26;
 	text-decoration: none;
 }
 
@@ -73,7 +73,7 @@ div.door4-mobile-nav-push-inner.pushed-aside {
 }
 
 div.door4-mobile-nav {
-	background-color: #00BEBE;
+	background-color: #57acd5;
 	font-size: 15px;
 	height: 100%;
 	margin-left: 0;
@@ -112,20 +112,20 @@ div.door4-mobile-nav ul.mobile-nav-list {
 }
 
 div.door4-mobile-nav ul.mobile-nav-list.obscured {
-	background-color: #009F9F;
+	background-color: #ff8b26;
 }
 
 div.door4-mobile-nav ul.mobile-nav-list li {
-	border-bottom: 1px solid #009F9F;
+	border-bottom: 1px solid #fff;
 	list-style-type: none;
 	width: 100%;
 }
 
 div.door4-mobile-nav ul.mobile-nav-list li ul.sub {
-	background-color: #00BEBE;
+	background-color: #57acd5;
 	position: absolute;
 	height: 100%;
-	left: -100%;
+	left: -110%;
 	top: 0;
 	width: 100%;
 	margin: 0;
@@ -137,7 +137,7 @@ div.door4-mobile-nav ul.mobile-nav-list li ul.sub {
 }
 
 div.door4-mobile-nav ul.mobile-nav-list li ul.sub.obscured {
-	background-color: #009F9F;
+	background-color: #ff8b26;
 }
 
 div.door4-mobile-nav ul.mobile-nav-list li ul.sub.rolled_out {
@@ -166,7 +166,7 @@ div.door4-mobile-nav ul.mobile-nav-list h4.door4-mobile-nav-title {
 }
 
 div.door4-mobile-nav ul.mobile-nav-list a.mobile-nav-link:hover {
-	background-color: #009F9F;
+	background-color: #ff8b26;
 }
 
 div.door4-mobile-nav ul.mobile-nav-list a.mobile-nav-link span {
@@ -175,7 +175,7 @@ div.door4-mobile-nav ul.mobile-nav-list a.mobile-nav-link span {
 }
 
 div.door4-mobile-nav ul.mobile-nav-list a.mobile-nav-link i {
-	color: #008b8b;
+	color: #ff8b26;
 	display: inline-block;
 	float: left;
 	font-family: 'D4MMFontAwesome';
@@ -184,7 +184,7 @@ div.door4-mobile-nav ul.mobile-nav-list a.mobile-nav-link i {
 }
 
 div.door4-mobile-nav ul.mobile-nav-list a.mobile-back-link {
-	background-color: #00ADAD;
+	background-color: #ff8b26;
 	font-size: 0.8em;
     padding-bottom: 0.5em;
     text-transform: uppercase;

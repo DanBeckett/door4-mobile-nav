@@ -10,6 +10,16 @@
  
 */
 
+add_action('admin_menu', 'door4_mobile_menu_plugin_menu');
+ 
+function door4_mobile_menu_plugin_menu(){
+        add_menu_page( 'Door4 Mobile Menu Setup', 'Mobile Menu Setup', 'manage_options', 'door4-mobile-menu', 'door4_mobile_menu_plugin_options_page' );
+}
+ 
+function door4_mobile_menu_plugin_options_page(){
+        echo "<h1>Door4 Mobile Menu Options</h1>";
+}
+
 $menu_location_name = 'door4_mobile';
 $menu_array = array();
 
