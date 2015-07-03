@@ -13,12 +13,79 @@
 add_action('admin_menu', 'door4_mobile_menu_plugin_menu');
  
 function door4_mobile_menu_plugin_menu(){
-        add_menu_page( 'Door4 Mobile Menu Setup', 'Mobile Menu Setup', 'manage_options', 'door4-mobile-menu', 'door4_mobile_menu_plugin_options_page' );
+        $options_page = add_menu_page( 'Door4 Mobile Menu Setup', 'Mobile Menu Setup', 'manage_options', 'door4-mobile-menu', 'door4_mobile_menu_plugin_options_page', 'dashicons-list-view' );
+		
+		//function to register settings
+		add_action( 'admin_init', 'door4_mobile_menu_register_settings' );
+
+		//if backend page, enqueue the js
+        add_action( 'load-' . $options_page, 'door4_mobile_menu_load_admin_js' );
+}
+
+function door4_mobile_menu_load_admin_js() {
+	add_action( 'admin_enqueue_scripts', 'door4_mobile_menu_enqueue_admin_js');
+}
+
+function door4_mobile_menu_enqueue_admin_js() {
+	wp_enqueue_script( 'postbox' );
+	wp_enqueue_script( 'admin_door4_mobile_nav', plugins_url( '/js/admin-door4-mobile-nav.js', __FILE__ ), array( 'jquery-ui-sortable', 'jquery-ui-accordion', 'jquery') );
+}
+
+function door4_mobile_menu_register_settings() {
+	//register our settings
+	register_setting( 'door4-mobile-menu-settings-group', 'door4_mobile_menu_title' );
+	register_setting( 'door4-mobile-menu-settings-group', 'door4_mobile_menu_background_colour' );
 }
  
-function door4_mobile_menu_plugin_options_page(){
-        echo "<h1>Door4 Mobile Menu Options</h1>";
-}
+function door4_mobile_menu_plugin_options_page() { ?>
+	<div class="wrap">
+		<h2>Door4 Mobile Menu Settings</h2>
+		<form method="post" action="options.php">
+			<div class="metabox-holder has-right-sidebar" id="poststuff">
+				<div class="inner-sidebar" id="side-info-column">
+
+					<!-- Update -->
+					<div class="postbox">
+						<h3 class="hndle"><span>Save Changes</span></h3>
+						<div class="inside">
+							<div>
+								<?php submit_button(); ?>
+							</div>
+						</div>
+					</div>
+
+					<div id="side-sortables" class="meta-box-sortables"></div>
+				</div>
+				<div id="post-body">
+					<div id="post-body-content">
+						<div id="normal-sortables" class="meta-box-sortables">
+							<?php settings_fields( 'door4-mobile-menu-settings-group' ); ?>
+							<?php do_settings_sections( 'door4-mobile-menu-settings-group' ); ?>
+							<div class="postbox">
+						        <h3 class="hndle"><span>Text Options</span></h3>
+						        <div class="inside">
+							        <div>
+							        	<p class="label"><label for="door4_mobile_menu_title">Menu Title</label></p>
+										<input type="text" name="door4_mobile_menu_title" value="<?php echo esc_attr( get_option('door4_mobile_menu_title') ); ?>" />
+							        </div>
+						        </div>
+							</div>
+							<div class="postbox">
+						        <h3 class="hndle"><span>Layout Options</span></h3>
+						        <div class="inside">
+						        	<div>
+							        	<p class="label"><label for="door4_mobile_menu_background_colour">Background Colour</label></p>
+										<input type="text" name="door4_mobile_menu_background_colour" value="<?php echo esc_attr( get_option('door4_mobile_menu_background_colour') ); ?>" />
+							        </div>
+						        </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</form>
+	</div>
+<?php }
 
 $menu_location_name = 'door4_mobile';
 $menu_array = array();
@@ -143,8 +210,16 @@ if(!function_exists('include_door4_mobile_menu_js')) {
 
 		global $menu_location_name;
 		global $menu_array;
+
+		$options = array(
+			'title'		=>	'Navigate'
+		);
+
+		if( get_option( 'door4_mobile_menu_title' ) ) {
+			$options['title'] = esc_attr( get_option( 'door4_mobile_menu_title' ) );
+		}
 		
-		$output = '<a href=\"javascript:void(0);\" class=\"door4-mobile-nav-toggle\"><i class=\"icon-reorder\"></i></a><div class=\"door4-mobile-nav\"><ul class=\"mobile-nav-list\"><li class=\"section-title\"><h4 class=\"door4-mobile-nav-title\">Navigate</h4></li>';
+		$output = '<a href=\"javascript:void(0);\" class=\"door4-mobile-nav-toggle\"><i class=\"icon-reorder\"></i></a><div class=\"door4-mobile-nav\"><ul class=\"mobile-nav-list\"><li class=\"section-title\"><h4 class=\"door4-mobile-nav-title\">'.$options['title'].'</h4></li>';
 		
 		$menu_locations = get_nav_menu_locations();
 		$menu_id = $menu_locations[$menu_location_name];		

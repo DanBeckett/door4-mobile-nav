@@ -1,0 +1,336 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"echo",
+				"echo	echo \"…\""
+			],
+			[
+				"resi",
+				"resizeVids"
+			],
+			[
+				"kla",
+				"klavika_regular"
+			],
+			[
+				"proxim",
+				"proxima-nova-bold"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 47.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install p",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"install package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"install package",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Applications/MAMP/htdocs/sites/plugindev/wp-content/plugins/door4-mobile-nav/door4-mobile-nav.php",
+		"/Applications/MAMP/htdocs/sites/plugindev/wp-config.php",
+		"/Applications/MAMP/htdocs/sites/euravia/wp-content/themes/euravia_2011/page-home.php",
+		"/Applications/MAMP/htdocs/sites/euravia/wp-content/themes/euravia_2011/style.css",
+		"/Applications/MAMP/htdocs/sites/euravia/wp-content/themes/euravia_2011/header.php",
+		"/Applications/MAMP/htdocs/sites/euravia/wp-content/themes/euravia_2011/footer.php",
+		"/Users/danbeckett/door4-mobile-nav/door4-mobile-nav.php",
+		"/Users/danbeckett/Desktop/footer-logo-TC.png",
+		"/Users/danbeckett/Downloads/Door4 - Projects/sandylands/build/iphone/tiapp.xml",
+		"/Applications/MAMP/htdocs/sites/furiousstyles/wp-content/themes/furiousstyles/package.json",
+		"/Users/danbeckett/Desktop/category.php",
+		"/Users/danbeckett/Desktop/bad dirts/door4/Saturday 14 March",
+		"/Volumes/ClientData/h/Hat trick/_dev/Stage 01/01 Creative/Concepts/index.html",
+		"/Applications/MAMP/htdocs/sites/magnetcc/wp-content/plugins/gravityforms/css/font-awesome.css",
+		"/Applications/MAMP/htdocs/sites/magnetcc/wp-content/themes/magnetchamps/assets/stylesheets/application.scss",
+		"/Applications/MAMP/htdocs/sites/magnetcc/wp-content/themes/magnetchamps/assets/stylesheets/app.min.css",
+		"/Applications/MAMP/htdocs/sites/magnetcc/wp-content/plugins/advanced-custom-fields-pro/fields/google-map.php",
+		"/Applications/MAMP/htdocs/sites/magnetcc/wp-content/plugins/advanced-custom-fields-pro/admin/views/field-group-options.php",
+		"/Applications/MAMP/htdocs/sites/magnetcc/wp-content/themes/magnetchamps/Gruntfile.js",
+		"/Applications/MAMP/htdocs/sites/magnetcc/wp-content/themes/magnetchamps/package.json",
+		"/Applications/MAMP/htdocs/sites/magnetcc/wp-config-sample.php",
+		"/Users/danbeckett/Library/Caches/Coda 2/1AA9E89C-B81D-453B-AECD-7C6FC37C4D3D/desktop.css",
+		"/Applications/MAMP/htdocs/sites/lucyandfriends/wp-content/themes/lucyandfriends/css/vendor/fonts/fontawesome-webfont.eot",
+		"/Users/danbeckett/Downloads/font-awesome-4.3.0/css/font-awesome.min.css",
+		"/Applications/MAMP/htdocs/sites/lucyandfriends/wp-content/themes/lucyandfriends/style.css",
+		"/Applications/MAMP/htdocs/sites/lucyandfriends/wp-config-sample.php",
+		"/Applications/MAMP/htdocs/sites/sika/wp-content/themes/door4-fullpage-js/js/functions.js",
+		"/Applications/MAMP/htdocs/sites/sika/wp-content/themes/door4-fullpage-js/section-wrapper-single.php",
+		"/Applications/MAMP/htdocs/sites/sika/wp-content/themes/door4-fullpage-js/css/sass/modules/_mixins.scss",
+		"/Applications/MAMP/htdocs/sites/sika/wp-content/plugins/door4-admin-scheme/style.css",
+		"/Applications/MAMP/htdocs/sites/sika/wp-content/themes/door4-fullpage-js/css/sass/modules/_colors.scss",
+		"/Applications/MAMP/htdocs/sites/sika/wp-content/plugins/door4-admin-scheme/door4-admin-scheme.sublime-project",
+		"/Applications/MAMP/htdocs/sites/sika/wp-content/plugins/door4-admin-scheme/door4-admin-scheme.php",
+		"/Applications/MAMP/htdocs/sites/sika/wp-config.php",
+		"/Applications/MAMP/htdocs/sites/sika/wp-content/themes/door4-fullpage-js/index.php",
+		"/Applications/MAMP/htdocs/sites/sika/wp-content/themes/door4-fullpage-js/functions.php",
+		"/Applications/MAMP/htdocs/sites/stepup/wp-content/themes/stepup/page-congratulations.php",
+		"/Applications/MAMP/htdocs/sites/stepup/wp-content/themes/stepup/css/sass/main.scss",
+		"/Applications/MAMP/htdocs/sites/stepup/wp-content/plugins/stepup-plugin/stepup-plugin.php",
+		"/Applications/MAMP/htdocs/sites/stepup/wp-content/themes/stepup/functions.php",
+		"/Applications/MAMP/htdocs/sites/stepup/wp-content/themes/stepup/js/vendor/custom.modernizr.js",
+		"/Applications/MAMP/htdocs/sites/stepup/wp-content/themes/stepup/front-page.php",
+		"/Applications/MAMP/htdocs/sites/stepup/wp-content/themes/stepup/404.php",
+		"/Applications/MAMP/htdocs/sites/stepup/wp-content/themes/stepup/css/sass/partials/_large.scss",
+		"/Applications/MAMP/htdocs/sites/stepup/wp-content/themes/stepup/css/sass/modules/_colors.scss",
+		"/Applications/MAMP/htdocs/sites/stepup/wp-content/themes/stepup/css/sass/partials/_standard.scss",
+		"/Applications/MAMP/htdocs/sites/stepup/wp-content/themes/stepup/index.php",
+		"/Applications/MAMP/htdocs/sites/stepup/wp-content/themes/stepup/page.php",
+		"/Applications/MAMP/htdocs/sites/stepup/wp-content/themes/stepup/js/functions.js",
+		"/Applications/MAMP/htdocs/sites/stepup/wp-content/themes/stepup/js/vendor/custom.modernizr-2.8.3.js",
+		"/Applications/MAMP/htdocs/sites/stepup/wp-content/themes/stepup/footer.php",
+		"/Applications/MAMP/htdocs/sites/stepup/wp-content/themes/stepup/gform_functions.html",
+		"/Applications/MAMP/htdocs/sites/stepup/wp-content/themes/stepup/css/sass/modules/_type.scss",
+		"/Applications/MAMP/htdocs/sites/stepup/wp-content/themes/stepup/css/___OLDsass/mixins.scss",
+		"/Applications/MAMP/htdocs/sites/stepup/wp-content/themes/stepup/css/sass/mixins.scss",
+		"/Applications/MAMP/htdocs/sites/stepup/.gitignore",
+		"/Applications/MAMP/htdocs/sites/stepup/wp-config.php",
+		"/Applications/MAMP/htdocs/sites/stepup/stepup.sublime-project",
+		"/Applications/MAMP/htdocs/sites/stepup/wp-content/themes/stepup/style.css",
+		"/Applications/MAMP/htdocs/sites/stepup/wp-content/themes/stepup/css/sass/site-specific.scss",
+		"/Applications/MAMP/htdocs/sites/stepup/wp-content/themes/stepup/css/sass/door4-theme.scss",
+		"/Users/danbeckett/Downloads/Door4 - Projects/WainWright_Comp/assets/bg_1920.jpg",
+		"/Users/danbeckett/Downloads/Door4 - Projects/WainWright_Comp/assets/logo_craghoppers.png",
+		"/Users/danbeckett/Downloads/Door4 - Projects/WainWright_Comp/assets/logo.png",
+		"/Users/danbeckett/Downloads/Door4 - Projects/WainWright_Comp/assets/pint_bottle.png",
+		"/Applications/MAMP/htdocs/sites/stepup/wp-mail.php",
+		"/Applications/MAMP/htdocs/sites/stepup/wp-admin/ms-admin.php",
+		"/Applications/MAMP/htdocs/sites/stepup/wp-includes/js/media-audiovideo.min.js",
+		"/Applications/MAMP/htdocs/sites/stepup.sublime-project"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"contact-no",
+			"#layerslider_1 h1",
+			"ls-container",
+			"wso",
+			"wsolog",
+			"bubble_bran",
+			".result_name",
+			"#results",
+			"single-location-title",
+			"sm-single",
+			"bubble_main",
+			"template_structure",
+			"apply_template",
+			"location_field_map",
+			"locationData",
+			"additional_information",
+			"locationData",
+			"padding:10px",
+			"padding:10px;",
+			"support",
+			"supports",
+			"infobox",
+			"var marker",
+			"marker",
+			"br /",
+			"<br />",
+			"location_search_submit_cell",
+			"zip",
+			"naviga",
+			"iphone",
+			"iphone 5",
+			"footer",
+			"ul",
+			".ico",
+			"static-",
+			"modal_video",
+			"quote_inner",
+			"longtex",
+			"footer-information",
+			"         ",
+			"back-to",
+			"transition",
+			"ipnut",
+			"video_person",
+			"longtext",
+			"regular",
+			"strong",
+			"heading-text",
+			"longtext",
+			"iphone 6",
+			"landscape",
+			"fullpage_menu",
+			"mobile_menu",
+			"body {",
+			"iphone 5",
+			"Portrait",
+			"mobile",
+			"video",
+			"rgba",
+			"foundation-ie8",
+			"only",
+			"logo.p",
+			"foooter",
+			"preload_bg",
+			"height",
+			"modern",
+			"transition",
+			"h2",
+			"header"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "door4-mobile-nav.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 266.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
